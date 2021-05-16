@@ -121,3 +121,5 @@ def logout():
         session.clear()
         return redirect(url_for('login'))
     return render_template('logout.html')
+
+    yellow
