@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/blog.min.css') }}" />
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/hilite.css') }}" />
     {% block extra_head %}{% endblock %}
@@ -15,7 +16,7 @@
   </head>
 
   <body>
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="navbar navbar-expand navbar-static-top bg-dark" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -64,7 +65,7 @@
 
       <footer>
         <hr />
-        <p>Blog, &copy; 2015</p>
+        <p>Blog, &copy; 2021</p>
       </footer>
     </div>
   </body>
